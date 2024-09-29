@@ -20,3 +20,21 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.head {
+  position: absolute;
+  width: 230px;
+  height: 130px;
+  background-color: sienna;
+}
+
+.head:before {
+  content: '';
+  width: 240px;
+  height: 230px;
+  background-color: #111;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 50px;
+  left: -10px;
+}

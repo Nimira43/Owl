@@ -30,7 +30,7 @@ body {
 
 .head:before {
   content: '';
-  width: 240px;
+  width: 250px;
   height: 230px;
   background-color: #111;
   position: absolute;
@@ -38,3 +38,22 @@ body {
   bottom: 50px;
   left: -10px;
 }
+
+.eye-container {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: sienna;
+  border-radius: 50%;
+  top: 80px;
+}
+
+.eye-container.left {
+  left: 185px;
+} 
+
+.eye-container.right {
+  right: 185px;
+}
+
+.

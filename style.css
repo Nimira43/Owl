@@ -81,4 +81,13 @@ body {
   background-color: #000;
   border-radius: 50%;
   border: 10px solid #ffa500;
+  top: 20px;
+}
+
+.left-eye {
+  left: 30px;
+}
+
+.right-eye {
+  right: 30px;
 }

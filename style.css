@@ -98,4 +98,5 @@ body {
   height: 60px;
   background-color: #ffa500;
   top: 160px;
+  clip-path: polygon(0 0, 100% 0, 60% 100%, 40% 100%);
 }

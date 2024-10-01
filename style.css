@@ -91,3 +91,11 @@ body {
 .right-eye {
   right: 30px;
 }
+
+.beak {
+  position: absolute;
+  width: 45px;
+  height: 60px;
+  background-color: #ffa500;
+  top: 160px;
+}

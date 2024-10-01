@@ -111,3 +111,24 @@ body {
   border-radius: 50%;
   z-index: -1;
 }
+
+.wings:before,
+.wings:after {
+  content: '';
+  position: absolute;  
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wings:before {
+  width: 200px;
+  height: 310px;
+  background-color: #d77141;
+}
+
+.wings:after {
+  width: 150px;
+  height: 230px;
+  background-color: #fff;
+}

@@ -16,9 +16,9 @@ body {
   position: relative;
   width: 600px;
   height: 500px;
-
   display: flex;
   justify-content: center;
+  z-index: 10;
 }
 
 .head {
@@ -92,6 +92,24 @@ body {
   right: 30px;
 }
 
+.eye::before {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+}
+
+.forehead {
+  width: 200px;
+  height: 50px;
+  background: #a0522d;
+  position: absolute;
+  left: 200px;
+  top: 75px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
 .beak {
   position: absolute;
   width: 45px;
@@ -131,4 +149,63 @@ body {
   width: 150px;
   height: 230px;
   background-color: #fff;
+  border-radius: 50%;
+  right: 10px;
+  top: 5px;
 }
+
+.foot {
+  position: absolute;
+  height: 40px;
+  width: 15px;
+  background: #ffd700;
+  top: 420px;
+  border-radius: 50%;
+  border: 1px solid #d77141;
+}
+
+.left-foot {
+  left: 220px;
+}
+
+.right-foot {
+  right: 220px;
+}
+
+.foot::before, .foot::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #ffd700;
+  border-radius: 50%;
+  border: 1px solid #d77141;
+}
+
+.left-foot::before {
+  left: 15px;
+}
+
+.right-foot::before {
+  right: 15px;
+}
+
+.left-foot::after {
+  left: 30px;
+}
+
+.right-foot::after {
+  right: 30px;
+}
+
+.branch {
+  position: absolute;
+  width: 400px;
+  height: 15px;
+  background-color: #ffffff;
+  bottom: 25px;
+  border-radius: 10px;
+}
+
+
+
